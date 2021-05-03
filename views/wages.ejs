@@ -1,0 +1,43 @@
+<header class="main-header">
+  <nav class="nav main-nav">
+    <ul>
+      <li><a href="/">HOME</a></li>
+      <!-- <li><a href="/personaldata">EMPLOYEE PERSONAL DATA</a></li>
+      <li><a href="/wages"> WAGES</a></li>
+      <li><a href="/report"> REPORT</a></li>
+      <li><a href="/salaryslip">SALARY SLIP</a></li>
+      <li><a href="/leave">LEAVE</a></li> -->
+    </ul>
+  </nav>
+  <h1 class="topic"><strong>EMPLOYEE WAGES</strong></h1>
+</header>
+
+<br />
+<br />
+<form action="/wages/employeewages" method="POST">
+  <!-- <label for="id">EMPLOYEE ID: </label><br />
+  <input type="number" id="id" name="id" /><br /><br /> -->
+
+  <label for="basicpay">Basic Pay: </label><br />
+  <input type="number" id="basicpay" name="basicpay" /><br /><br />
+
+  <label for="da">DA: </label><br />
+  <input type="number" id="da" name="da" /><br /><br />
+
+  <label for="hra">HRA: </label><br />
+  <input type="number" id="hra" name="hra" /><br /><br />
+
+  <label for="medical">MEDICAL: </label><br />
+  <input type="number" id="medical" name="medical" /><br /><br />
+
+  <label for="conv">CONV: </label><br />
+  <input type="number" id="conv" name="conv" /><br /><br />
+
+  <label for="pf">PF: </label><br />
+  <input type="number" id="pf" name="pf" /><br /><br />
+
+  <label for="tds">TDS: </label><br />
+  <input type="number" id="tds" name="tds" /><br /><br />
+
+  <button type="submit">Get Report</button>
+</form>
