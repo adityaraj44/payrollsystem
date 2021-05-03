@@ -1,20 +1,22 @@
-<table style="width: 90%"" border="1%">
-  <tr>
-    <th>Name</th>
-    <th>Email</th>
-    <th>Phone Number</th>
-    <th>Gender</th>
-    <th>Age</th>
-    <!-- <th>Employee ID</th> -->
-  </tr>
-  <tr>
-    <th><%- fname %></th>
-    <th><%- email %></th>
-    <th><%- phone %></th>
-    <th><%- gender %></th>
-    <th><%- age %></th>
-    
-    
-  </tr>
+<table class="table">
+  <thead class="thead-dark">
+    <tr>
+      <th>Name</th>
+      <th>Email</th>
+      <th>Phone Number</th>
+      <th>Gender</th>
+      <th>Age</th>
+      <!-- <th>Employee ID</th> -->
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th><%- fname %></th>
+      <th><%- email %></th>
+      <th><%- phone %></th>
+      <th><%- gender %></th>
+      <th><%- age %></th>
+    </tr>
+  </tbody>
 </table>
-<button><a href="/wages">NEXT</a></button>
+<button><a href="/wages" class="btn btn-success">NEXT</a></button>

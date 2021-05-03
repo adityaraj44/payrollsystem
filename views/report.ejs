@@ -1,52 +1,56 @@
-<header class="main-header">
-  <nav class="nav main-nav">
-    <ul>
-      <li><a href="/">HOME</a></li>
-      <!-- <li><a href="/personaldata">EMPLOYEE PERSONAL DATA</a></li>
+<li><a href="/" class="btn btn-primary mt-5">HOME</a></li>
+<!-- <li><a href="/personaldata">EMPLOYEE PERSONAL DATA</a></li>
       <li><a href="/wages"> WAGES</a></li>
       <li><a href="/report"> REPORT</a></li>
       <li><a href="/salaryslip">SALARY SLIP</a></li>
       <li><a href="/leave">LEAVE</a></li> -->
-    </ul>
-  </nav>
-  <h1 class="topic"><strong> REPORT</strong></h1>
-</header>
-<br />
-<br />
-<table style="width: 90%" border="1%">
-  <tr>
-    <th>EMPLOYEE ID</th>
-    <th>BP</th>
-    <th>DA</th>
-    <th>HRA</th>
-    <th>MEDICAL</th>
-    <th>CONVEYANCE</th>
-    <th>PF</th>
-    <th>TDS</th>
-  </tr>
-  <tr>
-    <td><%- id %></td>
-    <td><%- basicpay %></td>
-    <td><%- da %></td>
-    <td><%- hra %></td>
 
-    <td><%- medical %></td>
-    <td><%- conv %></td>
-    <td><%- pf %></td>
-    <td><%- tds%></td>
-  </tr>
+<h1 class="text-center mb-3">Report</h1>
+
+<br />
+<br />
+<table class="table">
+  <thead class="thead-dark">
+    <tr>
+      <th>EMPLOYEE ID</th>
+      <th>BP</th>
+      <th>DA</th>
+      <th>HRA</th>
+      <th>MEDICAL</th>
+      <th>CONVEYANCE</th>
+      <th>PF</th>
+      <th>TDS</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><%- id %></td>
+      <td><%- basicpay %></td>
+      <td><%- da %></td>
+      <td><%- hra %></td>
+
+      <td><%- medical %></td>
+      <td><%- conv %></td>
+      <td><%- pf %></td>
+      <td><%- tds%></td>
+    </tr>
+  </tbody>
 </table>
 <!-- <button><a href="/salaryslip">GET SALARY SLIP</a></button> -->
 <hr />
 
 <br />
-<table style="width: 90%" border="1%">
-  <tr>
-    <th>Employee ID</th>
-    <th>Salary</th>
-  </tr>
-  <tr>
-    <th><%- id %></th>
-    <th><%- total %></th>
-  </tr>
+<table class="table">
+  <thead class="thead-dark">
+    <tr>
+      <th>Employee ID</th>
+      <th>Salary</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th><%- id %></th>
+      <th><%- total %></th>
+    </tr>
+  </tbody>
 </table>
