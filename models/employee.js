@@ -27,7 +27,7 @@ const employeeSchema = new mongoose.Schema({
   },
 
   pan: {
-    type: Number,
+    type: String,
   },
   adhar: {
     type: Number,
@@ -36,7 +36,7 @@ const employeeSchema = new mongoose.Schema({
     type: Number,
   },
   pf: {
-    type: Number,
+    type: String,
   },
 });
 
